@@ -1,8 +1,8 @@
 <?php
 
-class block_desempenho extends block_base {
+class block_myperformance extends block_base {
 	public function init () {
-		$this->title = get_string('Desempenho', 'Desempenho');
+		$this->title = 'my performance';
 	}
 	
 	public function get_content () {	
